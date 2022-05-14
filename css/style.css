@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #da4059;
+    height: 100vh;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 85vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px 40px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(87, 6, 30, 0.4);
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(165, 30, 30);
+    padding: 5px;
+    width: 75%;
+    font-size: 14px;
+}
+
+.search-box button{
+    border: none;
+    outline: none;
+    width: 20%;
+    background-color: #cf6677;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+.result{
+    position:relative;
+}
+
+.result .word{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result h4{
+    font-size: 16px;
+    color: #504697;
+}
+
+.result button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: #cf6677;
+}
+
+.result .transcribe{
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+}
+
+.result_meaning{
+    color: #575a7b;
+}
+
+.result_example{
+    color: #575a7b;
+    font-style: italic;
+    padding-left: 12px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.error{
+    margin-top: 40px;
+    text-align: center;
+}
